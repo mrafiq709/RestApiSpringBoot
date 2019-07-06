@@ -10,7 +10,7 @@ import com.example.testapi.model.SystemExample;
 public interface SystemRepository extends CrudRepository<SystemExample,Long>{
 	
 	@Query(
-	value = "SELECT * FROM system_example s WHERE s.id = 3", 
+	value = "SELECT * FROM system_example s WHERE s.id = 1", 
 	nativeQuery = true)
 	public Iterable<SystemExample> findUserById();
 }

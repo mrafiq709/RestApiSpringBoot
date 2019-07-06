@@ -6,7 +6,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+/**
+ * Model class for table system_example in database
+ * @author Md.Rafiqul
+ *
+ */
 @Entity
 @Table(name = "system_example")
 public class SystemExample {

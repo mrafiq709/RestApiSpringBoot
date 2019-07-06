@@ -1,7 +1,11 @@
 package com.example.testapi.model;
 
 import java.util.List;
-
+/**
+ * ErrorResponse Model class for Exception Handling
+ * @author Md.Rafiqul
+ *
+ */
 public class ErrorResponse {
 	
     //General error message about nature of error

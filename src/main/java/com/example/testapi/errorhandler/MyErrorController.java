@@ -25,6 +25,8 @@ public class MyErrorController implements ErrorController{
 		
 		// Get the Error status code
 	    Object status = request.getAttribute(RequestDispatcher.ERROR_STATUS_CODE);
+	    
+	    System.out.println("Error Message: "+request.getAttribute(RequestDispatcher.ERROR_MESSAGE));
 	     
 	    // Check What Type of Error
 	    if (status != null) {

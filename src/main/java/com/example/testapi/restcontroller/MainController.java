@@ -22,13 +22,4 @@ public class MainController {
 		return "index";
 	}
 	
-	/**
-	 * Login Page
-	 * @return -> login.html Page
-	 */
-	@GetMapping("/login")
-	public String login() {
-		return "login";
-	}
-	
 }
